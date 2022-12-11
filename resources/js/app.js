@@ -1,1 +1,14 @@
 import './bootstrap';
+import './jquery-1.11.1.min';
+import './bootstrap/bootstrap';
+// import './bootstrap/bootstrap.min';
+import './bootstrap/bootstrap-hover-dropdown.min';
+import './owl.carousel.min';
+import './echo.min';
+import './jquery.easing-1.3.min.js';
+import './bootstrap/bootstrap-slider.min';
+import './jquery.rateit.min';
+import './lightbox.min';
+import './bootstrap/bootstrap-select.min';
+import './wow.min';
+import './scripts';
