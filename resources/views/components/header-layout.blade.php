@@ -5,12 +5,30 @@
         <div class="container">
             <div class="header-top-inner">
                 <div class="cnt-account">
+                    <form id="logoutForm" method="POST" action="{{ route('logout') }}">
+                        @csrf
+                    </form>
                     <ul class="list-unstyled">
-                        <li><a href="#"><i class="icon fa fa-user"></i>My Account</a></li>
+                        <li><a href="{{ route('profile.edit') }}"><i class="icon fa fa-user"></i>My Account</a></li>
                         <li><a href="#"><i class="icon fa fa-heart"></i>Wishlist</a></li>
                         <li><a href="#"><i class="icon fa fa-shopping-cart"></i>My Cart</a></li>
                         <li><a href="#"><i class="icon fa fa-check"></i>Checkout</a></li>
-                        <li><a href="#"><i class="icon fa fa-lock"></i>Login</a></li>
+
+                        @if (Route::has('login'))
+                            @auth
+                            <li>
+                                <a href="" onclick="event.preventDefault(); document.getElementById('logoutForm').submit();">
+                                    <i class="icon fa"></i>Log Out
+                                </a>
+                            </li>
+                        @else
+                            <li>
+                                <a href="{{ route('login') }}">
+                                    <i class="icon fa fa-lock"></i>Login
+                                </a>
+                            </li>
+                            @endauth
+                        @endif
                     </ul>
                 </div>
                 <!-- /.cnt-account -->
@@ -48,7 +66,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
                     <!-- ============================================================= LOGO ============================================================= -->
-                    <div class="logo"> <a href="home.html"> <img src="assets/images/logo.png" alt="logo"> </a> </div>
+                    <div class="logo"> <a href="home.html"> <img src="{{ asset('storage/images/logo.png') }}" alt="logo"> </a> </div>
                     <!-- /.logo -->
                     <!-- ============================================================= LOGO : END ============================================================= --> </div>
                 <!-- /.logo-holder -->
@@ -140,7 +158,7 @@
                     <div class="navbar-collapse collapse" id="mc-horizontal-menu-collapse">
                         <div class="nav-outer">
                             <ul class="nav navbar-nav">
-                                <li class="active dropdown yamm-fw"> <a href="home.html" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Home</a> </li>
+                                <li class="active dropdown yamm-fw"> <a href="{{ route('homepage') }}" class="dropdown-toggle">Home</a> </li>
                                 <li class="dropdown yamm mega-menu"> <a href="home.html" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Clothing</a>
                                     <ul class="dropdown-menu container">
                                         <li>

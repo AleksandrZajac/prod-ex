@@ -41,7 +41,7 @@
 
                     <div class="module-body">
                         <ul class='list-unstyled'>
-                            <li class="first"><a href="#" title="Contact us">My Account</a></li>
+                            <li class="first"><a href="{{ route('password.confirm') }}" title="Contact us">My Account</a></li>
                             <li><a href="#" title="About us">Order History</a></li>
                             <li><a href="#" title="faq">FAQ</a></li>
                             <li><a href="#" title="Popular Searches">Specials</a></li>

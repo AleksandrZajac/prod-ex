@@ -34,6 +34,18 @@
     <x-header-layout/>
         {{ $slot }}
     <x-footer-layout/>
+    <script src="{{ asset('storage/js/jquery-1.11.1.min.js') }}"></script>
+    <script src="{{ asset('storage/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('storage/js/bootstrap-hover-dropdown.min.js') }}"></script>
+    <script src="{{ asset('storage/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('storage/js/echo.min.js') }}"></script>
+    <script src="{{ asset('storage/js/jquery.easing-1.3.min.js') }}"></script>
+    <script src="{{ asset('storage/js/bootstrap-slider.min.js') }}"></script>
+    <script src="{{ asset('storage/js/jquery.rateit.min.js') }}"></script>
+    <script type="text/javascript"  src="{{ asset('storage/js/lightbox.min.js') }}"></script>
+    <script src="{{ asset('storage/js/bootstrap-select.min.js') }}"></script>
+    <script src="{{ asset('storage/js/wow.min.js') }}"></script>
+    <script src="{{ asset('storage/js/scripts.js') }}"></script>
 @vite('resources/js/app.js')
 </body>
 </html>

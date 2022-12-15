@@ -15,9 +15,9 @@ Text Domain:  Flipmart
 3.   Header
 4.   Side menu
 5.   Slider
-6.   Top Banner Section	
+6.   Top Banner Section
 8.   Home Tabs
-9.   Products Grid 
+9.   Products Grid
 10.  Products List
 11.  Latest-Blog
 12.  Sidebar
@@ -1403,7 +1403,7 @@ header{background: #fff;}
 .navbar-nav {float:none}
 
 .special-menu {float:right}
-.special-menu a {color:#ffdd35!important; border:none!important; padding-right:0px!important} 
+.special-menu a {color:#ffdd35!important; border:none!important; padding-right:0px!important}
 .special-menu a:hover{ background:none!important; color:#fff!important}
 
 .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a {
@@ -1454,7 +1454,7 @@ header{background: #fff;}
   transition: all 0.3s ease 0s;
   width: 0;
   z-index: 100;
-  
+
 }
 .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li .menu-label:before {
   right: 18px;
@@ -1557,7 +1557,7 @@ header{background: #fff;}
     letter-spacing: 0.2px;
 	font-size:13px;
 	color:#565656;
-	
+
 }
 
 
@@ -2278,7 +2278,7 @@ header{background: #fff;}
   display: block;
   position: static;
   margin-top: -47px;
- 
+
 }
 #owl-main .owl-pagination {
   background: #FFF;
@@ -2352,7 +2352,7 @@ header{background: #fff;}
  font-family: 'Montserrat', sans-serif;
  font-size:14px;
  font-weight:bold;
- text-transform:uppercase	
+ text-transform:uppercase
 }
 
 #owl-main .item .caption .big-text {
@@ -2622,7 +2622,7 @@ age-container #owl-main .owl-next {
   /* background-color: #d0205e; */
   /* box-shadow: 0 2px 4px 0 rgba(0,0,0,.08); */
 }
-  
+
 
 .info-boxes {
 
@@ -2755,7 +2755,7 @@ age-container #owl-main .owl-next {
   position:absolute;
    top:0;
     margin-left:-55px
- 
+
 }
 .product .cart .action ul li {
   float: left;
@@ -2782,7 +2782,7 @@ age-container #owl-main .owl-next {
 	background:#d0205e;
 	margin:0px;
 	border-radius:0px
-	
+
 
 }
 .tag {
@@ -2830,8 +2830,8 @@ age-container #owl-main .owl-next {
   width: 100%;
   z-index: 666;
   left: 0px;
- 
- 
+
+
 }
 .cart .action {
   float: left;
@@ -2930,7 +2930,7 @@ age-container #owl-main .owl-next {
   transition: all 0.3s ease;
 }
 .wide-banner:hover img {
-  
+
 }
 .cnt-strip {
   position: relative;
@@ -3784,7 +3784,7 @@ age-container #owl-main .owl-next {
  border:1px #e5e5e5 solid;
  padding: 20px;
  overflow:hidden
-	
+
 }
 
 .single-product .product-info-block .name {margin-top:0px; font-weight:bold; letter-spacing:-1px}
@@ -4556,8 +4556,8 @@ border: 1px #e5e5e5 solid;
 	.header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a {border:none}
 	.mega-menu img {width:100%}
 	.yamm .dropdown-menu .yamm-content .col-menu {margin-bottom:15px}
-	
-	
+
+
   .top-bar .header-top-inner {
     text-align: center;
   }
@@ -4676,7 +4676,7 @@ border: 1px #e5e5e5 solid;
   .product-comparison .compare-table tr td .product .product-image .image img {
     width: auto;
   }
-  
+
 .hot-deals .products {margin-right:15px}
 
 .copyright-bar .payment-methods {text-align:left; margin-top:10px}
@@ -4788,7 +4788,7 @@ border: 1px #e5e5e5 solid;
   .wrapper .box .wrapper-inner .container {
     width: auto !important;
   }
-  
+
     .special-menu {display:none!important}
 	.home-banner img {width:100%}
 }
@@ -4944,10 +4944,10 @@ border: 1px #e5e5e5 solid;
 .blog-review {
 	 background-color: #fff;
     padding: 20px;}
-	
+
 .blog-write-comment {
 	 background-color: #fff;
-    padding: 20px;}	
+    padding: 20px;}
 
 .blog-page .blog-post-author-details .author-social-network {
   display: inline-block;
@@ -5040,7 +5040,7 @@ border: 1px #e5e5e5 solid;
   color: #666666;
   font-size: 13px;
   padding-right: 4px;
-  ont-family: FontAwesome;
+  font-family: FontAwesome;
 }
 .blog-page .blog-post .author:before,
 .blog-page .sidebar .sidebar-module-container .sidebar-widget .blog-post .author:before {
@@ -5228,7 +5228,7 @@ border: 1px #e5e5e5 solid;
   background-color: rgba(0, 0, 0, 0);
 }
 
-.checkout-progress-sidebar .nav>li>a {padding: 10px 0px;} 
+.checkout-progress-sidebar .nav>li>a {padding: 10px 0px;}
 .checkout-progress-sidebar .nav>li>a:hover, .nav>li>a:focus {background:none}
 
 /*===================================================================================*/
@@ -5239,7 +5239,7 @@ border: 1px #e5e5e5 solid;
 	 background-color: #fff;
    border:1px #e5e5e5 solid;
     padding: 20px;
-	overflow:hidden}	
+	overflow:hidden}
 
 .contact-page .contact-map iframe {
   height: 400px;
@@ -5285,7 +5285,7 @@ border: 1px #e5e5e5 solid;
     background-color: #fff;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
     padding: 20px;
-	overflow:hidden	
+	overflow:hidden
 }
 
 .shopping-cart .shopping-cart-table {
@@ -5867,5 +5867,5 @@ z-index:10000
     margin-top: 30px;
     border:1px #e5e5e5 solid;
 	}
-	
-.home-banner img {width:100%}	
+
+.home-banner img {width:100%}
