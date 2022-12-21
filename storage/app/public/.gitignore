@@ -1,4 +1,6 @@
 *
+!js
+!js/**
 !images
 !images/**
 !.gitignore
