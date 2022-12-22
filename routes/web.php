@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\CartController;
+use App\Http\Controllers\WishlistController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,6 +32,12 @@ Route::get('/dashboard', function () {
 Route::get('/contacts', [ContactController::class, 'index'])->name('contacts');
 
 Route::get('/categories', [ProductController::class, 'index'])->name('categories');
+
+Route::get('/product', [ProductController::class, 'show'])->name('product');
+
+Route::get('/cart', [CartController::class, 'index'])->name('cart');
+
+Route::get('/my/wishlist', [WishlistController::class, 'index'])->name('wishlist');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
